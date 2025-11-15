@@ -1,7 +1,7 @@
 class Carril {  //carril de fondo para las notas
      constructor(posX, posY){
-    this.posX;
-    this.posY;
+    this.posX = posX;
+    this.posY = posY;
     this.miColor = color(0);  //color negro
    }
    dibujar(){
